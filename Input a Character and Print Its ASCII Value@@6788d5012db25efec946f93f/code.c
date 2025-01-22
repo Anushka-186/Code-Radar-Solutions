@@ -2,9 +2,9 @@
 
 void main()
 {
-    char chara;
+    char inputCharacter;
     printf("Enter a character: ");
-    scanf("%c", &chara);
-    
-    printf("ASCII Value: %d\n", chara);
+    scanf("%c", &inputCharacter);
+
+    printf("ASCII Value: %d\n", inputCharacter);
 }
