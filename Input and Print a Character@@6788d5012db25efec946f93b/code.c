@@ -5,5 +5,5 @@ int main()
     float chara;
     scanf("%f", &chara);
     printf ("You entered: %c", chara);
-    reeturn 0;
+    return 0;
 }
