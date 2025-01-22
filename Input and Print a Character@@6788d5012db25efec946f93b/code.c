@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char welcome()
+char main()
 {
     float chara;
     scanf("%f", &chara);
