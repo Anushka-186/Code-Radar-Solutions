@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
-    int x,y;
-    scanf("%d", &x, &y);
-    y = x;
-    printf("%d",y);
-    
+    float num;
+    scanf("%f", &num);
+    printf("You entered: %.2f\n", num);
+    return 0
 }
