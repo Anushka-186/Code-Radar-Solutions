@@ -2,8 +2,8 @@
 
 int main()
 {
-    char inputCharacter;
-    scanf("%c", &inputCharacter);
-    printf("ASCII Value: %d\n", inputCharacter);
+    char character;
+    scanf("%c", &character);
+    printf("ASCII Value: %d\n", character);
     return 0;
 }
