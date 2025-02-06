@@ -11,4 +11,3 @@ int main() {
         printf("True\n");
     }
     return 0;
-}
