@@ -5,9 +5,10 @@ int main() {
         if (a>b) {
             printf("True\n");
         }
-    } else if (b>a) {
+         else if (b>a) {
         printf("False\n");
-    } else {
+        } else {
         printf("True\n");
-    }
+        }
     return 0;
+    }
