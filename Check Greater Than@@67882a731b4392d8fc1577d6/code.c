@@ -5,11 +5,10 @@ int main() {
         if (a>b) {
             printf("True\n");
         }
-    } else if (b>a) {
+    } else if {
         printf("False\n");
     } else {
         printf("True\n");
     }
-    
     return 0;
 }
