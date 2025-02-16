@@ -5,10 +5,10 @@ int main() {
     int num1, num2, result;
 
     // Take two integers as input
-    printf(" ");
+    printf("");
     scanf("%d", &num1);
 
-    printf(" ");
+    printf("");
     scanf("%d", &num2);
 
     // Perform bitwise OR operation
