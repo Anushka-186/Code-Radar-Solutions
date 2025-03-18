@@ -5,6 +5,6 @@ int main() {
     scanf("%d", &num);
     scanf("%d", &n);
     bitValue = (num >> n) & 1;
-    printf("%d\n", n, bitValue);
+    printf("1", n, bitValue);
     return 0;
 }
