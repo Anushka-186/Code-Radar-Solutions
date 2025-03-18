@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &n);
     int mask = ~(1 << n);
     if (num = num & mask) {
-        printf("6");
+        printf("%d", n);
     }
     else {
         printf("5");
