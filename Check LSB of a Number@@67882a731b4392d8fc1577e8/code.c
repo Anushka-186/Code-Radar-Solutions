@@ -1,4 +1,5 @@
-// Your code here...#include <stdio.h>
+// Your code here...
+#include <stdio.h>
 
 int main() {
     int num;
@@ -8,6 +9,5 @@ int main() {
     } else {
         printf("Not set");
     }
-
     return 0;
 }
