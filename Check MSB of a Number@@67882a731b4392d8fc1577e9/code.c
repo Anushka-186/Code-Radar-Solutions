@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &num);
     int numBits = sizeof(num) * CHAR_BIT; 
     if (num == 0) {
-        printf("The most significant bit is not set (0).\n");
+        printf("Not Set");
     } else {
         // Check the most significant bit
         if (num & (1 << (numBits - 1))) {
