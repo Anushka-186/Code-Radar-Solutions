@@ -10,9 +10,9 @@ int main() {
 
     // Check if the least significant bit is set (1) or not (0) using bitwise operators
     if (num & 1) {
-        printf("The least significant bit is set (1).\n");
+        printf("Set");
     } else {
-        printf("The least significant bit is not set (0).\n");
+        printf("Not Set");
     }
 
     return 0;
