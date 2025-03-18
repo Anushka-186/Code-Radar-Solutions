@@ -3,9 +3,6 @@
 
 int main() {
     int num;
-
-    // Input a number
-    printf("Enter a number: ");
     scanf("%d", &num);
 
     // Check if the least significant bit is set (1) or not (0) using bitwise operators
