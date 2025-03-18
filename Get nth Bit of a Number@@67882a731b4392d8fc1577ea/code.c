@@ -4,7 +4,10 @@ int main() {
     int num, n, bitValue;
     scanf("%d", &num);
     scanf("%d", &n);
-    bitValue = (num >> n) & 1;
-    printf("1", n, bitValue);
+    if (bitValue = (num >> n) & 1){
+    printf("1");}
+    else {
+        printf("0");
+    }
     return 0;
 }
