@@ -23,7 +23,7 @@ int main() {
     int position = findLowestSetBitPosition(num);
     
     if (position == -1) {
-        printf("\n");
+        printf("0");
     } else {
         printf("%d\n", position);
     }
