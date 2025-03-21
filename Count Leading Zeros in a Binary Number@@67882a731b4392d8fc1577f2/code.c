@@ -23,7 +23,7 @@ int main() {
 
     int leadingZeroes = countLeadingZeroes(num);
 
-    printf("The number of leading zeroes in the binary representation of %u is: %d\n", num, leadingZeroes);
+    printf("%d\n", num, leadingZeroes);
 
     return 0;
 }
