@@ -18,5 +18,10 @@ int main() {
     printf("Enter the bit position (n): ");
     scanf("%d", &n);
 
-    // Call the function to set the nth bit
-    unsigned i
+    unsigned int result = setNthBit(num, n);
+
+    // Output the result
+    printf("Number after setting the %dth bit: %u\n", n, result);
+
+    return 0;
+}
