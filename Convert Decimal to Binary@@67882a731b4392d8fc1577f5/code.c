@@ -18,14 +18,8 @@ void printBinary(unsigned int n) {
 }
 
 int main() {
-    unsigned int num;
-
-    // Get the input from the user
-    printf("Enter a decimal number: ");
+    int num;
     scanf("%u", &num);
-
-    // Print the binary representation using the bitwise operators
-    printf("Binary representation: ");
     printBinary(num);
 
     return 0;
