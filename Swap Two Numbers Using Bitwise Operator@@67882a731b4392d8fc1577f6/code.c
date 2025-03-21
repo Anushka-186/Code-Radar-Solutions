@@ -16,4 +16,7 @@ int main() {
     a = a ^ b;  // Step 3: a = (a ^ b) ^ a => a = b
 
     // Output after swapping
-    printf("After 
+    printf("After swapping: a = %d, b = %d\n", a, b);
+
+    return 0;
+}
