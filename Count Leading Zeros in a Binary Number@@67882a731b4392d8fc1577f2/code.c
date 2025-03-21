@@ -16,11 +16,14 @@ int countLeadingZeroes(unsigned int n) {
 
 int main() {
     unsigned int num;
+
+    // Get the input from the user
+    printf("Enter a 32-bit unsigned integer: ");
     scanf("%u", &num);
 
     int leadingZeroes = countLeadingZeroes(num);
 
-    printf("%d\n", num, leadingZeroes);
+    printf("The number of leading zeroes in the binary representation of %u is: %d\n", num, leadingZeroes);
 
     return 0;
 }
