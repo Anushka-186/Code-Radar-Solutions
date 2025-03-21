@@ -11,17 +11,14 @@ unsigned int setNthBit(unsigned int num, int n) {
 int main() {
     unsigned int num;
     int n;
-
-    // Input the number and the bit position to set
-    printf("Enter a number: ");
     scanf("%u", &num);
-    printf("Enter the bit position (n): ");
+   
     scanf("%d", &n);
 
     unsigned int result = setNthBit(num, n);
 
     // Output the result
-    printf("Number after setting the %dth bit: %u\n", n, result);
+    printf("%u\n",result);
 
     return 0;
 }
