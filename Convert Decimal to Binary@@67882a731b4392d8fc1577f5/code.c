@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Function to print the binary representation of a number
-void printBinary(unsigned int n) {
+void printBinary(int n) {
     int i;
     
     // Loop through each bit from the most significant bit (MSB)
