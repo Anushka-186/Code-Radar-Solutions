@@ -8,7 +8,7 @@ int main() {
     } else if (b>a) {
         printf("%d", b);
     } else {
-        printf("Invalid");
+        printf("0");
     }
     return 0;
 }
