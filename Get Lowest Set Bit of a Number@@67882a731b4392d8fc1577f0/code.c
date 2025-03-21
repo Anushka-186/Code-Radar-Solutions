@@ -23,9 +23,9 @@ int main() {
     int position = findLowestSetBitPosition(num);
     
     if (position == -1) {
-        printf("No set bits (1s) found in the number.\n");
+        printf("\n");
     } else {
-        printf("The position of the lowest set bit is: %d\n", position);
+        printf("%d\n", position);
     }
     
     return 0;
