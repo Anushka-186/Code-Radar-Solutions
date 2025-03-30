@@ -1,29 +1,14 @@
 #include <stdio.h>
-int main() {
-    int num, i, isPrime = 1;
-    // Input from the user
-    printf("");
-    scanf("%d", &num);
+#include <math.h>
 
-    // Check if the number is less than 2
+// Function to check if a number is prime
+int isPrime(int num) {
     if (num <= 1) {
-        isPrime = 0;
-    } else {
-        // Check for factors from 2 to the square root of the number
-        for (i = 2; i * i <= num; i++) {
-            if (num % i == 0) {
-                isPrime = 0;  // Not a prime number
-                break;
-            }
-        }
+        return 0;  // Not prime if the number is less than or equal to 1
     }
 
-    // Output the result
-    if (isPrime) {
-        printf("%d\n", num);
-    } else {
-        printf("%d\n", num);
-    }
-
-    return 0;
-}
+    // Check for factors from 2 to the square root of num
+    for (int i = 2; i <= sqrt(num); i++) {
+        if (num % i == 0) {
+            return 0;  // Not prime if divisible
+        }}}
