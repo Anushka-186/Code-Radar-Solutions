@@ -1,8 +1,6 @@
 #include <stdio.h>
-
 int main() {
     int num, i, isPrime = 1;
-
     // Input from the user
     printf("");
     scanf("%d", &num);
